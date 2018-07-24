@@ -20,17 +20,43 @@ Park.prototype.removeDinosaurs = function(dinosaur){
   this.dinosaurs.pop(dinosaur);
 };
 
+// Park.prototype.mostVisitors = function () {
+//   let chosenDinosaur = null;
+//   let mostVisitors = 0;
+//
+//   for(let dinosaur of this.dinosaurs){
+//     visitors = dinosaurs.guestsAttractedPerDay;
+//     if(visitors > mostVisitors){
+//
+//     }
+//
+//   // incomplete function
+// };
+
+
+// Park.prototype.findSpecies = function (species) {
+//   let findDinosaurs = [];
+//   for(let dinosaur of this.dinosaurs){
+//     if(dinosaur.species === species){
+//
+//     }
+//    - unsure what to find particular species?
+// };
+
+
+
 module.exports = Park;
 
 
+// Park.prototype.removeParticularSpecies = function () {
+//   findDinosaurs = this.findSpecies();
+//   for (let dinosaurs of findDinosaurs){
+//     this.removeDinosaur();
+//   }
+// incomplete function
+// };
 
 
-
-// const Dinosaur = function (species, diet, guestsAttractedPerDay) {
-//   this.species = species;
-//   this.diet = diet;
-//   this.guestsAttractedPerDay = guestsAttractedPerDay;
-//
 
 
 
